@@ -1,0 +1,10 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #a4d4a4;
+}
+
+.hello {
+    color: red;
+    background: url('./background.jpg');
+}

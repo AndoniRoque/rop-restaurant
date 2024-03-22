@@ -1,13 +1,20 @@
 import _ from 'lodash';
+import './style.css'; 
+import Background from './background.jpg';
+
 import myName from './myName';
 import {functionOne, functionTwo} from "./myModule";
 
 function component() {
     const element = document.createElement('div');
 
-    element.textContent = myName("Slim Shady");
+    element.textContent="Home";
+    element.classList.add('hello');
 
-    element.textContent += " " + functionOne();
+    const background = new Image();
+    background.src = Background;
+
+    element.appendChild(background);
 
     return element;
 }
