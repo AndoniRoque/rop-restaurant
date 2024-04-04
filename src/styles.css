@@ -1,0 +1,21 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#info {
+    display:flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    width:50vw;
+}
+
+fieldset > p {
+    width: 25vw;
+}
+
+#image {
+    display: flex;
+}
+
