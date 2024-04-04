@@ -3,6 +3,16 @@ html, body {
     margin: 0px;
 }
 
+header {
+    height: 4vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 #info {
     display:flex; 
     justify-content: center; 
